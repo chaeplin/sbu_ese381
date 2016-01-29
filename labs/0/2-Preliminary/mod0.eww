@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\T2\in_out.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\T5\mod0_ALU.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\T4\mod0_AND.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\T3\sws_lvl.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+
