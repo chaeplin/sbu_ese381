@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1015402043</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Exe\in_out.d90</file>
+      <file>$TOOLKIT_DIR$\inc\iom128.h</file>
+      <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\in_out.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\bitdefinitions\iom128.inc</file>
+      <file>$PROJ_DIR$\Debug\Obj\in_out.pbi</file>
+      <file>$PROJ_DIR$\in_out.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\in_out.r90</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl3s-ec_mul.r90</file>
+      <file>$TOOLKIT_DIR$\src\template\cfg3soim.xcl</file>
+      <file>$TOOLKIT_DIR$\src\template\cfgm128.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\in_out.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\List\in_out.lst</file>
+      <file>$PROJ_DIR$\..\T4\sws_and.c</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\in_out.d90</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 10 9 7 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\in_out.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 12 7</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 2 1</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 1 2 4</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
