@@ -2,30 +2,25 @@
 
 <Workspace>
   <ConfigDictionary>
-    <CurrentConfigs>
-      <Project>in_out/Debug</Project>
-      <Project>mod0_AND/Debug</Project>
-      <Project>mod0_ALU/Debug</Project>
-      <Project>sws_lvl/Debug</Project>
-    </CurrentConfigs>
-    <CurrentProj>sws_lvl</CurrentProj>
-    <OverviewSelected>1</OverviewSelected>
-  </ConfigDictionary>
+    
+    
+    
+  <CurrentConfigs><Project>in_out/Debug</Project><Project>mod0_ALU/Debug</Project><Project>mod0_AND/Debug</Project><Project>sws_lvl/Debug</Project></CurrentConfigs><CurrentProj>sws_lvl</CurrentProj><OverviewSelected>0</OverviewSelected></ConfigDictionary>
   <Desktop>
     <Static>
       <Build>
-        <ColumnWidth0>20</ColumnWidth0>
-        <ColumnWidth1>805</ColumnWidth1>
-        <ColumnWidth2>214</ColumnWidth2>
-        <ColumnWidth3>53</ColumnWidth3>
-      </Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>805</ColumnWidth1><ColumnWidth2>214</ColumnWidth2><ColumnWidth3>53</ColumnWidth3></Build>
       <Workspace>
         <ColumnWidths>
-          <Column0>257</Column0>
-          <Column1>27</Column1>
-          <Column2>27</Column2>
-          <Column3>27</Column3>
-        </ColumnWidths>
+          
+          
+          
+          
+        <Column0>253</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
       </Workspace>
       <TerminalIO/>
       <SourceBrowser/>
@@ -34,9 +29,11 @@
         <ColumnWidth1>94</ColumnWidth1>
         <ColumnWidth2>1138</ColumnWidth2>
       </Find-All-Declarations>
-    </Static>
+    <Find-All-References><ColumnWidth0>528</ColumnWidth0><ColumnWidth1>75</ColumnWidth1><ColumnWidth2>906</ColumnWidth2></Find-All-References></Static>
     <Windows>
-      <Wnd2>
+      
+      
+    <Wnd2>
         <Tabs>
           <Tab>
             <Identity>TabID-28250-17512</Identity>
@@ -50,184 +47,43 @@
             <Factory>Find-All-Declarations</Factory>
             <Session/>
           </Tab>
-        </Tabs>
-        <SelectedTab>0</SelectedTab>
-      </Wnd2>
-      <Wnd3>
+        <Tab><Identity>TabID-32335-4492</Identity><TabName>References</TabName><Factory>Find-All-References</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
         <Tabs>
           <Tab>
             <Identity>TabID-6230-17515</Identity>
             <TabName>Workspace</TabName>
             <Factory>Workspace</Factory>
             <Session>
-              <NodeDict>
-                <ExpandedNode>&lt;ws&gt;</ExpandedNode>
-                <ExpandedNode>in_out</ExpandedNode>
-                <ExpandedNode>mod0_ALU</ExpandedNode>
-                <ExpandedNode>mod0_ALU/sws_alu.c</ExpandedNode>
-                <ExpandedNode>mod0_ALU/sws_alu.c/Output</ExpandedNode>
-                <ExpandedNode>mod0_AND</ExpandedNode>
-                <ExpandedNode>mod0_AND/sws_and.c</ExpandedNode>
-                <ExpandedNode>mod0_AND/sws_and.c/Output</ExpandedNode>
-                <ExpandedNode>sws_lvl</ExpandedNode>
-                <ExpandedNode>sws_lvl/sws_lvl.c</ExpandedNode>
-                <ExpandedNode>sws_lvl/sws_lvl.c/Output</ExpandedNode>
-              </NodeDict>
-            </Session>
+              
+            <NodeDict><ExpandedNode>&lt;ws&gt;</ExpandedNode><ExpandedNode>in_out</ExpandedNode><ExpandedNode>mod0_ALU</ExpandedNode><ExpandedNode>mod0_ALU/sws_alu.c</ExpandedNode><ExpandedNode>mod0_ALU/sws_alu.c/Output</ExpandedNode><ExpandedNode>mod0_AND</ExpandedNode><ExpandedNode>mod0_AND/sws_and.c</ExpandedNode><ExpandedNode>mod0_AND/sws_and.c/Output</ExpandedNode><ExpandedNode>sws_lvl</ExpandedNode><ExpandedNode>sws_lvl/sws_lvl.c</ExpandedNode><ExpandedNode>sws_lvl/sws_lvl.c/Output</ExpandedNode></NodeDict></Session>
           </Tab>
           <Tab>
             <Identity>TabID-5253-20995</Identity>
             <TabName>Source Browser</TabName>
             <Factory>SourceBrowser</Factory>
             <Session>
-              <TypeFilter>2147483647</TypeFilter>
-              <FileFilter>1</FileFilter>
-            </Session>
+              
+              
+            <TypeFilter>2147483647</TypeFilter><FileFilter>1</FileFilter></Session>
           </Tab>
         </Tabs>
-        <SelectedTab>0</SelectedTab>
-      </Wnd3>
-    </Windows>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
     <Editor>
-      <Pane>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\avr\doc\infocenter\index.ENU.html</Filename>
-        </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\..\..\..\LABS\0\2-PRELIMINARY\T2\in_out.c</Filename>
-          <XPos>0</XPos>
-          <YPos>0</YPos>
-          <SelStart>0</SelStart>
-          <SelEnd>0</SelEnd>
-          <XPos2>0</XPos2>
-          <YPos2>0</YPos2>
-          <SelStart2>296</SelStart2>
-          <SelEnd2>296</SelEnd2>
-        </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\..\..\..\LABS\0\2-PRELIMINARY\T4\sws_and.c</Filename>
-          <XPos>0</XPos>
-          <YPos>0</YPos>
-          <SelStart>0</SelStart>
-          <SelEnd>0</SelEnd>
-          <XPos2>0</XPos2>
-          <YPos2>0</YPos2>
-          <SelStart2>680</SelStart2>
-          <SelEnd2>680</SelEnd2>
-        </Tab>
-        <ActiveTab>2</ActiveTab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\..\..\..\LABS\0\2-PRELIMINARY\T4\DEBUG\LIST\sws_and.lst</Filename>
-          <XPos>0</XPos>
-          <YPos>0</YPos>
-          <SelStart>0</SelStart>
-          <SelEnd>0</SelEnd>
-          <XPos2>0</XPos2>
-          <YPos2>60</YPos2>
-          <SelStart2>0</SelStart2>
-          <SelEnd2>0</SelEnd2>
-        </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\..\..\..\LABS\0\2-PRELIMINARY\T5\sws_alu.c</Filename>
-          <XPos>0</XPos>
-          <YPos>0</YPos>
-          <SelStart>0</SelStart>
-          <SelEnd>0</SelEnd>
-          <XPos2>0</XPos2>
-          <YPos2>4</YPos2>
-          <SelStart2>707</SelStart2>
-          <SelEnd2>707</SelEnd2>
-        </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\..\..\..\LABS\0\2-PRELIMINARY\T5\DEBUG\LIST\sws_alu.lst</Filename>
-          <XPos>0</XPos>
-          <YPos>0</YPos>
-          <SelStart>0</SelStart>
-          <SelEnd>0</SelEnd>
-          <XPos2>0</XPos2>
-          <YPos2>99</YPos2>
-          <SelStart2>0</SelStart2>
-          <SelEnd2>0</SelEnd2>
-        </Tab>
-      </Pane>
-      <ActivePane>0</ActivePane>
-      <Sizes>
-        <Pane>
-          <X>1000000</X>
-          <Y>1000000</Y>
-        </Pane>
-      </Sizes>
-      <SplitMode>1</SplitMode>
-    </Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\avr\doc\infocenter\index.ENU.html</Filename></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\LABS\0\2-PRELIMINARY\T4\sws_and.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>266</SelStart2><SelEnd2>266</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\LABS\0\2-PRELIMINARY\T4\DEBUG\LIST\sws_and.lst</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\LABS\0\2-PRELIMINARY\T5\sws_alu.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>707</SelStart2><SelEnd2>707</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\LABS\0\2-PRELIMINARY\T5\DEBUG\LIST\sws_alu.lst</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>99</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\LABS\0\2-PRELIMINARY\T2\in_out.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>626</SelStart2><SelEnd2>626</SelEnd2></Tab><ActiveTab>5</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
     <Positions>
-      <Top>
-        <Row0>
-          <Sizes>
-            <Toolbar-00907938>
-              <key>iaridepm.enu1</key>
-            </Toolbar-00907938>
-          </Sizes>
-        </Row0>
-      </Top>
-      <Left>
-        <Row0>
-          <Sizes>
-            <Wnd3>
-              <Rect>
-                <Top>-2</Top>
-                <Left>-2</Left>
-                <Bottom>708</Bottom>
-                <Right>331</Right>
-                <x>-2</x>
-                <y>-2</y>
-                <xscreen>200</xscreen>
-                <yscreen>200</yscreen>
-                <sizeHorzCX>104167</sizeHorzCX>
-                <sizeHorzCY>210305</sizeHorzCY>
-                <sizeVertCX>173438</sizeVertCX>
-                <sizeVertCY>746583</sizeVertCY>
-              </Rect>
-            </Wnd3>
-          </Sizes>
-        </Row0>
-      </Left>
-      <Right>
-        <Row0>
-          <Sizes/>
-        </Row0>
-      </Right>
-      <Bottom>
-        <Row0>
-          <Sizes>
-            <Wnd2>
-              <Rect>
-                <Top>-2</Top>
-                <Left>-2</Left>
-                <Bottom>198</Bottom>
-                <Right>1922</Right>
-                <x>-2</x>
-                <y>-2</y>
-                <xscreen>1924</xscreen>
-                <yscreen>200</yscreen>
-                <sizeHorzCX>1002083</sizeHorzCX>
-                <sizeHorzCY>210305</sizeHorzCY>
-                <sizeVertCX>104167</sizeVertCX>
-                <sizeVertCY>210305</sizeVertCY>
-              </Rect>
-            </Wnd2>
-          </Sizes>
-        </Row0>
-      </Bottom>
-      <Float>
-        <Sizes/>
-      </Float>
-    </Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-02FFF638><key>iaridepm.enu1</key></Toolbar-02FFF638></Sizes></Row0></Top><Left><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>566</Bottom><Right>327</Right><x>-2</x><y>-2</y><xscreen>160</xscreen><yscreen>162</yscreen><sizeHorzCX>104439</sizeHorzCX><sizeHorzCY>210117</sizeHorzCY><sizeVertCX>214752</sizeVertCX><sizeVertCY>736706</sizeVertCY></Rect></Wnd3></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>160</Bottom><Right>1534</Right><x>-2</x><y>-2</y><xscreen>1536</xscreen><yscreen>162</yscreen><sizeHorzCX>1002611</sizeHorzCX><sizeHorzCY>210117</sizeHorzCY><sizeVertCX>104439</sizeVertCX><sizeVertCY>210117</sizeVertCY></Rect></Wnd2></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
   </Desktop>
 </Workspace>
 
