@@ -6,63 +6,62 @@
   <configuration>
     <name>Debug</name>
     <outputs>
+      <file>$PROJ_DIR$\in_out.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\in_out.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\in_out.pbi</file>
       <file>$PROJ_DIR$\Debug\Exe\in_out.d90</file>
       <file>$TOOLKIT_DIR$\inc\iom128.h</file>
-      <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\in_out.pbd</file>
       <file>$TOOLKIT_DIR$\inc\bitdefinitions\iom128.inc</file>
-      <file>$PROJ_DIR$\Debug\Obj\in_out.pbi</file>
-      <file>$PROJ_DIR$\in_out.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\in_out.r90</file>
-      <file>$TOOLKIT_DIR$\lib\clib\cl3s-ec_mul.r90</file>
+      <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
       <file>$TOOLKIT_DIR$\src\template\cfg3soim.xcl</file>
       <file>$TOOLKIT_DIR$\src\template\cfgm128.xcl</file>
       <file>$PROJ_DIR$\Debug\Obj\in_out.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\in_out.r90</file>
       <file>$PROJ_DIR$\Debug\List\in_out.lst</file>
-      <file>$PROJ_DIR$\..\T4\sws_and.c</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl3s-ec_mul.r90</file>
     </outputs>
     <file>
       <name>[ROOT_NODE]</name>
       <outputs>
         <tool>
           <name>XLINK</name>
-          <file> 0</file>
+          <file> 3</file>
         </tool>
       </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Debug\Exe\in_out.d90</name>
-      <inputs>
-        <tool>
-          <name>XLINK</name>
-          <file> 10 9 7 8</file>
-        </tool>
-      </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\in_out.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 5</file>
+          <file> 2</file>
         </tool>
         <tool>
           <name>ICCAVR</name>
-          <file> 12 7</file>
+          <file> 11 10</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 11</file>
+          <file> 9</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 4 2 1</file>
+          <file> 5 6 4</file>
         </tool>
         <tool>
           <name>ICCAVR</name>
-          <file> 1 2 4</file>
+          <file> 4 6 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\in_out.d90</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 8 7 10 12</file>
         </tool>
       </inputs>
     </file>
