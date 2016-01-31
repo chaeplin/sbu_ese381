@@ -6,28 +6,53 @@
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$PROJ_DIR$\Debug\Exe\mod0_ALU.d90</file>
-      <file>$PROJ_DIR$\sws_alu.c</file>
-      <file>$PROJ_DIR$\..\T4\Debug\List\sws_and.lst</file>
-      <file>$PROJ_DIR$\..\T4\sws_and.c</file>
       <file>$PROJ_DIR$\Debug\Obj\sws_alu.r90</file>
-      <file>$PROJ_DIR$\Debug\Obj\mod0_ALU.pbd</file>
-      <file>$PROJ_DIR$\Debug\Obj\sws_alu.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\iom128.h</file>
       <file>$TOOLKIT_DIR$\src\template\cfg3soim.xcl</file>
-      <file>$TOOLKIT_DIR$\src\template\cfgm128.xcl</file>
       <file>$PROJ_DIR$\Debug\Obj\sws_alu.__cstat.et</file>
+      <file>$PROJ_DIR$\sws_alu.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\sws_alu.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\mod0_ALU.d90</file>
+      <file>$PROJ_DIR$\Debug\Obj\mod0_ALU.pbd</file>
       <file>$PROJ_DIR$\Debug\List\sws_alu.lst</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl3s-ec_mul.r90</file>
+      <file>$TOOLKIT_DIR$\inc\iom128.h</file>
+      <file>$TOOLKIT_DIR$\src\template\cfgm128.xcl</file>
       <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
       <file>$TOOLKIT_DIR$\inc\bitdefinitions\iom128.inc</file>
-      <file>$TOOLKIT_DIR$\lib\clib\cl3s-ec_mul.r90</file>
     </outputs>
+    <file>
+      <name>$PROJ_DIR$\sws_alu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 7 0</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 9 12</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 9 11 12</file>
+        </tool>
+      </inputs>
+    </file>
     <file>
       <name>$PROJ_DIR$\Debug\Exe\mod0_ALU.d90</name>
       <inputs>
         <tool>
           <name>XLINK</name>
-          <file> 9 8 4 14</file>
+          <file> 10 1 0 8</file>
         </tool>
       </inputs>
     </file>
@@ -36,36 +61,9 @@
       <outputs>
         <tool>
           <name>XLINK</name>
-          <file> 0</file>
+          <file> 5</file>
         </tool>
       </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\sws_alu.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 6</file>
-        </tool>
-        <tool>
-          <name>ICCAVR</name>
-          <file> 11 4</file>
-        </tool>
-        <tool>
-          <name>__cstat</name>
-          <file> 10</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 12 7 13</file>
-        </tool>
-        <tool>
-          <name>ICCAVR</name>
-          <file> 7 12 13</file>
-        </tool>
-      </inputs>
     </file>
   </configuration>
   <configuration>
