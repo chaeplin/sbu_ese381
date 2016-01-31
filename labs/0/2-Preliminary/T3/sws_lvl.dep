@@ -6,65 +6,69 @@
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
       <file>$TOOLKIT_DIR$\inc\iom128.h</file>
-      <file>$TOOLKIT_DIR$\inc\bitdefinitions\iom128.inc</file>
-      <file>$PROJ_DIR$\Debug\Obj\sws_lvl.pbd</file>
-      <file>$PROJ_DIR$\Debug\Exe\sws_lvl.d90</file>
-      <file>$PROJ_DIR$\sws_lvl.c</file>
       <file>$PROJ_DIR$\Debug\Obj\sws_lvl.r90</file>
-      <file>$PROJ_DIR$\Debug\Obj\sws_lvl.pbi</file>
-      <file>$TOOLKIT_DIR$\src\template\cfg3soim.xcl</file>
-      <file>$TOOLKIT_DIR$\src\template\cfgm128.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
+      <file>$PROJ_DIR$\sws_lvl.c</file>
       <file>$PROJ_DIR$\Debug\Obj\sws_lvl.__cstat.et</file>
       <file>$TOOLKIT_DIR$\lib\clib\cl3s-ec_mul.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\sws_lvl.pbd</file>
+      <file>$PROJ_DIR$\Debug\Exe\sws_lvl.d90</file>
+      <file>$TOOLKIT_DIR$\src\template\cfg3soim.xcl</file>
+      <file>$TOOLKIT_DIR$\src\template\cfgm128.xcl</file>
       <file>$PROJ_DIR$\Debug\List\sws_lvl.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\sws_lvl.pbi</file>
       <file>$PROJ_DIR$\..\T4\sws_and.c</file>
+      <file>$TOOLKIT_DIR$\inc\bitdefinitions\iom128.inc</file>
+      <file>$PROJ_DIR$\..\T2\in_out.c</file>
+      <file>$PROJ_DIR$\..\T5\sws_alu.c</file>
+      <file>$PROJ_DIR$\..\T5\Debug\List\sws_alu.lst</file>
+      <file>$PROJ_DIR$\..\T4\Debug\List\sws_and.lst</file>
     </outputs>
     <file>
-      <name>$PROJ_DIR$\Debug\Exe\sws_lvl.d90</name>
-      <inputs>
+      <name>[ROOT_NODE]</name>
+      <outputs>
         <tool>
           <name>XLINK</name>
-          <file> 9 8 6 11</file>
+          <file> 7</file>
         </tool>
-      </inputs>
+      </outputs>
     </file>
     <file>
       <name>$PROJ_DIR$\sws_lvl.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 7</file>
+          <file> 11</file>
         </tool>
         <tool>
           <name>ICCAVR</name>
-          <file> 12 6</file>
+          <file> 10 1</file>
         </tool>
         <tool>
           <name>__cstat</name>
-          <file> 10</file>
+          <file> 4</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 2 0 1</file>
+          <file> 13 2 0</file>
         </tool>
         <tool>
           <name>ICCAVR</name>
-          <file> 1 0 2</file>
+          <file> 0 2 13</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>[ROOT_NODE]</name>
-      <outputs>
+      <name>$PROJ_DIR$\Debug\Exe\sws_lvl.d90</name>
+      <inputs>
         <tool>
           <name>XLINK</name>
-          <file> 4</file>
+          <file> 9 8 1 5</file>
         </tool>
-      </outputs>
+      </inputs>
     </file>
   </configuration>
   <configuration>

@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "G:\labs\0\2-Preliminary\T3\settings\sws_lvl.Debug.general.xcl" --backend -f "G:\labs\0\2-Preliminary\T3\settings\sws_lvl.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "G:\labs\0\2-PRELIMINARY\T3\settings\sws_lvl.Debug.general.xcl" --backend -f "G:\labs\0\2-PRELIMINARY\T3\settings\sws_lvl.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "G:\labs\0\2-Preliminary\T3\settings\sws_lvl.Debug.general.xcl" "--debug_file=%~1" --backend -f "G:\labs\0\2-Preliminary\T3\settings\sws_lvl.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "G:\labs\0\2-PRELIMINARY\T3\settings\sws_lvl.Debug.general.xcl" "--debug_file=%~1" --backend -f "G:\labs\0\2-PRELIMINARY\T3\settings\sws_lvl.Debug.driver.xcl" 
 
 @echo off 
 :end
