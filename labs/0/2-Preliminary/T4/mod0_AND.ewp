@@ -140,7 +140,7 @@
         </option>
         <option>
           <name>RTLibraryPath</name>
-          <state>$TOOLKIT_DIR$\LIB\CLIB\cl3t-ec_mul.r90</state>
+          <state>$TOOLKIT_DIR$\LIB\CLIB\cl3s-ec_mul.r90</state>
         </option>
         <option>
           <name>Input variant</name>
