@@ -1,0 +1,167 @@
+(ExpressProject "mod1"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "G:\SUPPORT DATA\CUSTOM.OLB"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\mod1.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (CONN,8x1,KEYPAD,4x4
+      (FullPartName "CONN,8x1,KEYPAD,4x4.Normal")
+      (LibraryName "G:\SUPPORT DATA\CUSTOM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CONN,RECT,2x5,LCD
+      (FullPartName "CONN,RECT,2x5,LCD.Normal")
+      (LibraryName "G:\SUPPORT DATA\CUSTOM.OLB")
+      (DeviceIndex "0"))
+    (RES
+      (FullPartName "RES.Normal")
+      (LibraryName "G:\SUPPORT DATA\CUSTOM.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (SW,KEYPAD,4x4
+      (FullPartName "SW,KEYPAD,4x4.Normal")
+      (LibraryName "G:\SUPPORT DATA\CUSTOM.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "G:\SUPPORT DATA\CUSTOM.OLB")
+      (DeviceIndex "0"))
+    (CAPACITOR-NP
+      (FullPartName "CAPACITOR-NP.Normal")
+      (LibraryName "G:\SUPPORT DATA\CUSTOM.OLB")
+      (DeviceIndex "0"))
+    (OSCILLATOR
+      (FullPartName "OSCILLATOR.Normal")
+      (LibraryName "G:\SUPPORT DATA\CUSTOM.OLB")
+      (DeviceIndex "0"))
+    (POT
+      (FullPartName "POT.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CAP
+      (FullPartName "CAP.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("DIODE ZENER"
+      (FullPartName "DIODE ZENER.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("SW PUSHBUTTON"
+      (FullPartName "SW PUSHBUTTON.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CONN,RECT,10,JTAG
+      (FullPartName "CONN,RECT,10,JTAG.Normal")
+      (LibraryName "G:\SUPPORT DATA\CUSTOM.OLB")
+      (DeviceIndex "0"))
+    (ATmega128-Updated
+      (FullPartName "ATmega128-Updated.Normal")
+      (LibraryName
+         "G:\SUPPORT DATA\ESE380--AVR LIBRARY--COREDEVICES--2014C.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "G:\support data")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\mod1.dsn")
+      (Path "Design Resources" ".\mod1.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "G:\SUPPORT DATA\CUSTOM.OLB")
+      (Select "Design Resources" ".\mod1.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -27 0 200 0 288"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -27 66 1032 66 502")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "G:\LABS\1\2-PRELIMINARY\MOD1\MOD1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "2-Keypad Interface"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -27 88 1054 88 524")
+        (Scroll "0 118")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "G:\LABS\1\2-PRELIMINARY\MOD1\MOD1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "3-DOG LCD Interface"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -27 110 1076 110 546")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "G:\LABS\1\2-PRELIMINARY\MOD1\MOD1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "1-ATMega128")))
+  (MPSSessionName "basic"))
