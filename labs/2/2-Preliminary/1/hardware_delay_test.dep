@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>4230385452</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Exe\hardware_delay_test.d90</file>
+      <file>$TOOLKIT_DIR$\inc\avr_macros.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hardware_delay_test.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hardware_delay_test.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\iom128.h</file>
+      <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\bitdefinitions\iom128.inc</file>
+      <file>$PROJ_DIR$\hardware_delay_test.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\hardware_delay_test.r90</file>
+      <file>$TOOLKIT_DIR$\src\template\cfg3soim.xcl</file>
+      <file>$TOOLKIT_DIR$\src\template\cfgm128.xcl</file>
+      <file>$PROJ_DIR$\Debug\List\hardware_delay_test.lst</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl3s-ec_mul.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\hardware_delay_test.__cstat.et</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\hardware_delay_test.d90</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 11 10 9 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\hardware_delay_test.c</name>
+      <outputs>
+        <tool>
+          <name>__cstat</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 12 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 5 7 4 1</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 4 5 7 6 1</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

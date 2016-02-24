@@ -13,10 +13,13 @@ USES:	TC0, pin OC0
 #include <avr_macros.h>     //Useful macros
 
 // COUNTER IN NORMAL MODE WITH CLK/64
-const byte COUNTER_MODE = (1 << CS01) | (1 << CS00);
+const char COUNTER_MODE = (1 << CS01) | (1 << CS00);
 
 // COUNTER WILL RUN FOR 1 ms = 64*(16E-6 sec)*(255-5)
-const byte DELAY_POSITION = 5;
+const char DELAY_POSITION = 5;
+
+// PIN B 4 is OC0
+#define OC0 4
 
 void main(){
 	// SETUP PIN OC0 FOR OUTPUT
@@ -40,8 +43,8 @@ void main(){
 	while(1);
 }
 
-#PRAGMA vector=TOV0_vect
-__interrupt void TOV0_ISR(void){
+#pragma vector=TIMER0_OVF_vect
+__interrupt void isr_TOV0(void){
 	// DISABLE COUNTER
 	TCCR0 = 0;
 	
